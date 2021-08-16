@@ -1,0 +1,50 @@
+.contactSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.contact{
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.field label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.identificationInfo{
+    display: flex;
+    width: 100%;
+}
+
+.field{
+    width: 100%;
+}
+
+
+
+.field input{
+    height: 30px;
+    padding: 1rem;
+    width: 100%;
+  
+}
+
+#name{
+    width: 90%;
+}
+
+
+.field textarea{
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.contactForm{
+    width: 60%;
+    max-width: 50rem;
+}
