@@ -169,9 +169,10 @@ const Home = ()=>{
 
             {/* Map and contact section */}
             
-            <div className = "mapANDcontact">
+            <div className = "mapANDcontact"  id="contact">
+                <h2 className = "headTitle">Contact Us</h2>
                 <div className="contactSection container">
-                <h2 headTitle>Contact Us</h2>
+                
                     <div className="contactInfo">
                         
                         <p className="address">
@@ -182,8 +183,13 @@ const Home = ()=>{
                         <a href="tel:+358000999000">Mobile num: +358000999000</a>
                         <br />
                         <div className="socialMedia">
-                            <span className="youtube"></span>
-                            <span className="facebook"></span>
+                            <span className="youtube">
+                                <a href="https://www.youtube.com/channel/UCVD-KMg4cpo05rqZqX1OYMQ"><img src="images/homepage/youtube-icon.png" alt="youtube icon" className="icons"/></a>
+                            </span>
+                            <span className="facebook">
+                                <a href="https://www.facebook.com/"><img src="images/homepage/facebook-icon.png" alt="facebook icon" className="icons"/></a>
+                                
+                            </span>
                         </div>
                         
                     </div>
@@ -207,6 +213,7 @@ const Home = ()=>{
                                 <label htmlFor="message">Your message</label>
                                 <textarea name="message" id="message" rows="10"></textarea>
                             </div>
+                            <button type="submit" className="headBtn">Submit</button>
 
                         </form>
                     </div>
