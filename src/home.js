@@ -23,7 +23,7 @@ const Home = ()=>{
                         <p className="headContent">
                             For God so loved the world that he gave his only begotten son, that whoever belives in him will not be dystroyed but they will have life abudantly
                         </p>
-                        <a className="headBtn" href='/address'>Visit Us</a>
+                        <a className="headBtn" href='#address'>Visit Us</a>
                     </div>
                     <div className="headImage">
                         <img src="./images/model.jpg" alt="woman smiling" />
@@ -175,7 +175,7 @@ const Home = ()=>{
                 
                     <div className="contactInfo">
                         
-                        <p className="address">
+                        <p className="address" id = "address">
                             Address: Ruukinkuja 4, <br /> Espoo, <br /> Finland.
                         </p>
                         <a href="mailto:overcomersarena@gmail.com">Email: overcomersarena@gmail.com</a>
